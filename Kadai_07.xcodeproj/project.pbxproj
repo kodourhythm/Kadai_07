@@ -9,21 +9,23 @@
 /* Begin PBXBuildFile section */
 		6951FB5724F0FC7000ED08BF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6951FB5624F0FC7000ED08BF /* AppDelegate.swift */; };
 		6951FB5924F0FC7000ED08BF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6951FB5824F0FC7000ED08BF /* SceneDelegate.swift */; };
-		6951FB5B24F0FC7000ED08BF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6951FB5A24F0FC7000ED08BF /* ViewController.swift */; };
 		6951FB5E24F0FC7000ED08BF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6951FB5C24F0FC7000ED08BF /* Main.storyboard */; };
 		6951FB6024F0FC7200ED08BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6951FB5F24F0FC7200ED08BF /* Assets.xcassets */; };
 		6951FB6324F0FC7200ED08BF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6951FB6124F0FC7200ED08BF /* LaunchScreen.storyboard */; };
+		6951FB6B24F143ED00ED08BF /* PinkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6951FB6A24F143ED00ED08BF /* PinkViewController.swift */; };
+		6951FB6D24F143FF00ED08BF /* GreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6951FB6C24F143FF00ED08BF /* GreenViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		6951FB5324F0FC7000ED08BF /* Kadai_07.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Kadai_07.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6951FB5624F0FC7000ED08BF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6951FB5824F0FC7000ED08BF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		6951FB5A24F0FC7000ED08BF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		6951FB5D24F0FC7000ED08BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6951FB5F24F0FC7200ED08BF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6951FB6224F0FC7200ED08BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6951FB6424F0FC7200ED08BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6951FB6A24F143ED00ED08BF /* PinkViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinkViewController.swift; sourceTree = "<group>"; };
+		6951FB6C24F143FF00ED08BF /* GreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreenViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,11 +60,12 @@
 			children = (
 				6951FB5624F0FC7000ED08BF /* AppDelegate.swift */,
 				6951FB5824F0FC7000ED08BF /* SceneDelegate.swift */,
-				6951FB5A24F0FC7000ED08BF /* ViewController.swift */,
 				6951FB5C24F0FC7000ED08BF /* Main.storyboard */,
 				6951FB5F24F0FC7200ED08BF /* Assets.xcassets */,
 				6951FB6124F0FC7200ED08BF /* LaunchScreen.storyboard */,
 				6951FB6424F0FC7200ED08BF /* Info.plist */,
+				6951FB6A24F143ED00ED08BF /* PinkViewController.swift */,
+				6951FB6C24F143FF00ED08BF /* GreenViewController.swift */,
 			);
 			path = Kadai_07;
 			sourceTree = "<group>";
@@ -138,7 +141,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6951FB5B24F0FC7000ED08BF /* ViewController.swift in Sources */,
+				6951FB6D24F143FF00ED08BF /* GreenViewController.swift in Sources */,
+				6951FB6B24F143ED00ED08BF /* PinkViewController.swift in Sources */,
 				6951FB5724F0FC7000ED08BF /* AppDelegate.swift in Sources */,
 				6951FB5924F0FC7000ED08BF /* SceneDelegate.swift in Sources */,
 			);
